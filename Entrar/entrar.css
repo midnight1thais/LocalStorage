@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url("//assets/fundo.png") no-repeat right top fixed; */
+    /* background-image: url("../assets/fundo.png") no-repeat right top fixed; */
+    background-image: url('/componentes/assets/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
