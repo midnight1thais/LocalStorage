@@ -35,7 +35,7 @@ label{
     
 }
 
-input[type="text"], input[type="password"]{
+input[type="text"], input[type="password"], input[type="date"]{
     color: #FFFFFF;
     text-indent: 1vw;
 }
@@ -91,7 +91,7 @@ section > h1 {
 
 }
 
-.user, .password{
+.name, .date ,.mail ,.confirm-word ,.word{
     width: 503.89px;
     height: 46px;
 
@@ -104,15 +104,15 @@ section > h1 {
 }
 
 .container{
-    height: 80vh;
-    padding: 5vh 8vw 0vh 8vw;
+    height: 100vh;
+    padding: 0vh 8vw 0vh 8vw;
 }
 
 .contact-form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5vh 8vw 0vh 8vw;
+    padding: 0vh 8vw 0vh 8vw;
     gap: 2rem;
 }
 

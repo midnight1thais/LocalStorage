@@ -4,13 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Login/index.css">
+    <link rel="stylesheet" href="../Cadastro/cadastro.css">
+    <script src="../Cadastro/cadastro.js" defer></script>
     <title>Cadastro</title>
 </head>
 <body>
-   <div class="container">
-    
-   </div>
-<script src="JS/cadastro.js"></script>
+    <main>
+        <section class="container">
+            <h1>Cadastro</h1>
+            <div class="contact">
+                <div class="contact-form">
+                    <div>
+                        <label>Nome</label>
+                        <input id="nome" placeholder="" type="text" class="name" required>
+                    </div>
+                    <div>
+                        <label>Data de Nascimento</label>
+                        <input id="dataNascimento" placeholder="" type="date" class="date">
+                    </div>
+                    <div>
+                        <label>E-mail</label>
+                        <input id="email" placeholder="" type="text" class="mail" required>	
+                    </div>
+                    <div>
+                        <label>Senha</label>
+                        <input id="senha" placeholder="" type="password" class="word" required>
+                    </div>
+                    <div>
+                        <label>Confirmação da Senha</label>
+                        <input id="confirmaSenha" placeholder="" type="password" class="confirm-word">
+                    </div>
+                    <input class="submit" id="submit" value="Entrar" type="submit">
+
+                </div>
+        </section>
+    </main>
 </body>
 </html>

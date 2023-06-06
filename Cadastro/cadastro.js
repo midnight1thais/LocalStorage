@@ -16,7 +16,8 @@ BOTAO.addEventListener('click', function(){
         window.localStorage.setItem('dataNascimento', NASCIMENTO.value);
         window.localStorage.setItem('nome', NOME.value);
 
-        window.location.href = 'index.html'
+        window.location.href = '../Entrar/entrar.html'
+        console.log(window.location.href);
     }else{
         alert("Senhas não combinam");
     }

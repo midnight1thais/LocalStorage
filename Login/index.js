@@ -11,7 +11,7 @@ BOTAO.addEventListener('click', function(){
     let senhaAtual = SENHA.value;
 
     if(usuarioAtual === usuarioSalvo && senhaAtual === senhaSalvo){
-        window.location.href = 'paginaInicial.html'
+        window.location.href = '../Entrar/entrar.html'
     }else{
         alert("Usuário ou Senha incorretos")
     }
